@@ -3,7 +3,8 @@
   "plugins": ["prettier"],
   "env": {
     "browser": true,
-    "es2021": true
+    "es2021": true,
+	"jest/globals": true // Add this line
   },
   "rules": {
     "prettier/prettier": [
